@@ -25,7 +25,7 @@ const pillars = [
 const xhecStats = [
   { value: "120", label: "Fondateurs par promotion", desc: "X-HEC Entrepreneurs réunit chaque année 120 entrepreneurs en formation." },
   { value: "2", label: "Grandes écoles réunies", desc: "L'excellence technique de Polytechnique alliée à la rigueur de gestion de HEC Paris." },
-  { value: "∞", label: "Promotions à venir", desc: "Chaque année, la promotion suivante peut reprendre le flambeau d'Eiffel Founders." },
+  { value: "∞", label: "Promotions à venir", desc: "Chaque année, la nouvelle promotion reprend le flambeau des Eiffel Founders." },
 ];
 
 export default function HomePage() {
@@ -88,45 +88,6 @@ export default function HomePage() {
             Huit fondateurs. Un lieu pour construire, recevoir et faire grandir l'écosystème entrepreneurial X-HEC à Paris.
           </p>
 
-          {/* CTAs */}
-          <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
-            <a
-              href="mailto:contact@eiffel-founders.com"
-              style={{
-                backgroundColor: "#1B2E4B",
-                color: "#FFFFFF",
-                fontSize: "0.8rem",
-                fontWeight: 600,
-                letterSpacing: "0.08em",
-                textTransform: "uppercase",
-                textDecoration: "none",
-                padding: "1rem 2rem",
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.5rem",
-              }}
-            >
-              Partner with us <ArrowRight size={14} />
-            </a>
-            <Link
-              href="/cohabs"
-              style={{
-                backgroundColor: "transparent",
-                color: "#1A1A1A",
-                fontSize: "0.8rem",
-                letterSpacing: "0.08em",
-                textTransform: "uppercase",
-                textDecoration: "none",
-                padding: "1rem 2rem",
-                border: "1px solid #E0DED6",
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.5rem",
-              }}
-            >
-              Partenariat Cohabs
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -160,13 +121,13 @@ export default function HomePage() {
       {/* ── X-HEC context ── */}
       <section style={{ backgroundColor: "#F7F6F2", padding: "6rem 1.5rem", borderBottom: "1px solid #E0DED6" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <div style={{ marginBottom: "3.5rem", maxWidth: "640px" }}>
+          <div style={{ marginBottom: "3.5rem" }}>
             <span style={{ display: "block", width: "48px", height: "2px", backgroundColor: "#C9A84C", marginBottom: "1.25rem" }} />
             <h2 style={{ fontFamily: "Playfair Display, Georgia, serif", fontSize: "clamp(1.75rem, 3vw, 2.5rem)", fontWeight: 600, color: "#1B2E4B", marginBottom: "1rem" }}>
               Ancré dans le programme X-HEC Entrepreneurs
             </h2>
             <p style={{ color: "#6B6B6B", fontSize: "1rem", lineHeight: 1.8 }}>
-              La promotion X-HEC Entrepreneurs regroupe chaque année 120 fondateurs répartis entre Jouy-en-Josas, Saclay, Station F, Singapour, San Francisco et d'autres lieux. Eiffel Founders est leur ambassade parisienne — inspirée de l'expérience{" "}
+              La promotion X-HEC Entrepreneurs regroupe chaque année 120 fondateurs répartis entre Jouy-en-Josas, Saclay, Station F, Singapour et San Francisco. Eiffel Founders est leur ambassade parisienne — inspirée de l'expérience{" "}
               <a
                 href="https://www.fontaine-founders.com/"
                 target="_blank"
@@ -229,10 +190,10 @@ export default function HomePage() {
               Partenariat Logement
             </span>
             <h2 style={{ fontFamily: "Playfair Display, Georgia, serif", fontSize: "clamp(1.5rem, 2.5vw, 2rem)", fontWeight: 600, color: "#FFFFFF", marginBottom: "1rem", lineHeight: 1.3 }}>
-              Nous cherchons notre premier partenaire logement premium à Paris.
+              Nous cherchons notre partenaire immobilier à Paris.
             </h2>
             <p style={{ fontSize: "0.9rem", color: "rgba(255,255,255,0.6)", lineHeight: 1.7 }}>
-              Cohabs est notre partenaire privilégié. Découvrez pourquoi ce partenariat représente une opportunité durable pour les deux parties.
+              Découvrez pourquoi ce partenariat représente une opportunité durable pour les deux parties.
             </p>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "0.75rem" }}>

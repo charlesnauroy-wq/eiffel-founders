@@ -63,7 +63,7 @@ export default function CohabsMemoPage() {
               content: (
                 <>
                   <p style={{ fontSize: "13px", color: "#333333", lineHeight: 1.8, fontFamily: "Georgia, serif" }}>
-                    Eiffel Founders est une hacker house parisienne portée par des fondateurs du programme X-HEC Entrepreneurs, l'une des formations entrepreneuriales les plus sélectives de France. Le projet réunit huit fondateurs dans un même lieu à Paris, avec trois missions : construire, se retrouver et organiser des événements pour l'écosystème entrepreneurial X-HEC.
+                    Eiffel Founders est une hacker house parisienne portée par des fondateurs du programme X-HEC Entrepreneurs. Le projet réunit huit fondateurs dans un même lieu à Paris, avec trois missions : construire, se retrouver et organiser des événements pour l'écosystème entrepreneurial X-HEC.
                   </p>
                   <p style={{ fontSize: "13px", color: "#333333", lineHeight: 1.8, fontFamily: "Georgia, serif", marginTop: "10px" }}>
                     Inspiré de l'expérience{" "}
@@ -107,10 +107,9 @@ export default function CohabsMemoPage() {
             </h2>
             <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
               {[
-                "Un partenariat durable, renouvelable chaque année avec la promotion X-HEC suivante.",
-                "Un groupe sérieux et présélectionné, issu d'une formation parmi les plus sélectives de France.",
-                "Une vitrine premium associant Cohabs à un projet entrepreneurial ambitieux.",
-                "Un lieu habité, animé et valorisé — entretenu et mis en valeur en permanence.",
+                "Un partenariat durable, renouvelable chaque année avec la nouvelle promotion X-HEC.",
+                "Un groupe sérieux et présélectionné, issu du programme X-HEC Entrepreneurs.",
+                "Un lieu habité, animé et valorisé — mis en valeur en permanence.",
                 "Une visibilité auprès de l'écosystème X-HEC, startup, alumni, tech et VC parisien.",
                 "Un potentiel de co-organisation d'événements et de présence dans l'écosystème.",
               ].map((item, i) => (
@@ -132,8 +131,8 @@ export default function CohabsMemoPage() {
             <div style={{ display: "flex", flexDirection: "column", gap: "0" }}>
               {[
                 { date: "Juillet 2026", title: "Finalisation & signature", desc: "Confirmation des conditions et signature du bail." },
-                { date: "Août — Sep. 2026", title: "Installation", desc: "Installation progressive selon l'avancement des travaux." },
-                { date: "Automne 2026", title: "Premiers événements", desc: "Lancement du programme événementiel Eiffel Founders." },
+                { date: "Août — Sep. 2026", title: "Installation", desc: "Installation progressive selon un calendrier convenu ensemble." },
+                { date: "Septembre 2026", title: "Premiers événements", desc: "Lancement du programme événementiel Eiffel Founders." },
                 { date: "2026 — 2027", title: "Développement", desc: "Montée en puissance et préparation du relais avec la promotion suivante." },
               ].map((item, i) => (
                 <div key={i} style={{ display: "grid", gridTemplateColumns: "130px 1fr", gap: "16px", padding: "10px 0", borderBottom: "1px solid #F0F0F0" }}>
@@ -155,7 +154,7 @@ export default function CohabsMemoPage() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "0" }}>
               {[
                 "Partenariat long terme et pluriannuel",
-                "Accompagnement et visibilité événementielle",
+                "Accompagnement événementiel : visibilité, co-branding, etc.",
                 "Flexibilité pendant la période de travaux",
                 "Suppression ou réduction des frais de dossier",
                 "Semaine de transition avant emménagement",

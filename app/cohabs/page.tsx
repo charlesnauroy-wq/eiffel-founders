@@ -39,16 +39,13 @@ export default function CohabsPage() {
               color: "#1B2E4B",
               lineHeight: 1.1,
               maxWidth: "900px",
-              marginBottom: "0.75rem",
+              marginBottom: "1.5rem",
             }}
           >
-            Pourquoi Cohabs peut devenir notre premier partenaire logement premium.
+            Pourquoi Cohabs peut devenir notre partenaire immobilier premium.
           </h1>
-          <p style={{ fontSize: "0.9rem", color: "#9E9E9E", fontStyle: "italic", marginBottom: "1.5rem" }}>
-            Why Cohabs should be our first premium housing partner.
-          </p>
-          <p style={{ fontSize: "1rem", color: "#6B6B6B", lineHeight: 1.8, maxWidth: "600px", marginBottom: "3rem" }}>
-            Eiffel Founders ne recherche pas un simple bail. Nous cherchons un partenaire logement qui comprend la valeur d'un groupe de fondateurs et qui souhaite construire une relation durable avec l'écosystème X-HEC.
+          <p style={{ fontSize: "1rem", color: "#6B6B6B", lineHeight: 1.8, marginBottom: "3rem" }}>
+            Eiffel Founders ne recherche pas un simple bail. Nous cherchons un partenaire immobilier qui comprend la valeur de notre projet et qui souhaite construire une relation durable avec l'écosystème des Eiffel Founders.
           </p>
           <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
             <Link
@@ -111,40 +108,31 @@ export default function CohabsPage() {
             <h2 style={{ fontFamily: "Playfair Display, Georgia, serif", fontSize: "clamp(1.5rem, 2.5vw, 2rem)", fontWeight: 600, color: "#1B2E4B", marginBottom: "0.75rem" }}>
               Les biens en discussion avec Cohabs
             </h2>
-            <p style={{ fontSize: "0.9rem", color: "#6B6B6B", lineHeight: 1.7, maxWidth: "560px" }}>
-              Cohabs nous a présenté deux biens parisiens correspondant à notre projet. Nous sommes ouverts à discuter de l'un ou l'autre selon les disponibilités et les priorités de Cohabs.
-            </p>
-          </div>
+            </div>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1px", backgroundColor: "#E0DED6", marginBottom: "2rem" }}>
             {[
               {
                 arr: "14e arrondissement",
-                desc: "Bien en cours de travaux. Emménagement possible en septembre, avant la finalisation complète, ou en octobre après finalisation selon l'avancement du chantier.",
-                flexibility: "Nous sommes prêts à emménager en septembre dans un bien encore en travaux si cela facilite le lancement.",
+                desc: "Bien en cours de travaux.",
               },
               {
                 arr: "19e arrondissement — Buttes-Chaumont",
-                desc: "Bien avec 9 chambres, actuellement en chantier. Configuration idéale pour accueillir les 8 résidents dans un cadre adapté à nos usages.",
-                flexibility: "Nous attendons les détails complets de Cohabs pour confirmer notre intérêt et discuter des conditions.",
+                desc: "Bien en cours de travaux.",
               },
             ].map((property, i) => (
               <div key={i} style={{ backgroundColor: "#FFFFFF", padding: "2.5rem" }}>
                 <div style={{ fontFamily: "JetBrains Mono, monospace", fontSize: "0.65rem", color: "#C9A84C", letterSpacing: "0.15em", textTransform: "uppercase", marginBottom: "0.75rem" }}>
                   {property.arr}
                 </div>
-                <p style={{ fontSize: "0.875rem", color: "#6B6B6B", lineHeight: 1.7, marginBottom: "1.25rem" }}>{property.desc}</p>
-                <div style={{ borderLeft: "2px solid #C9A84C", paddingLeft: "1rem" }}>
-                  <p style={{ fontSize: "0.8rem", color: "#9E9E9E", lineHeight: 1.7, fontStyle: "italic" }}>{property.flexibility}</p>
-                </div>
+                <p style={{ fontSize: "0.875rem", color: "#6B6B6B", lineHeight: 1.7 }}>{property.desc}</p>
               </div>
             ))}
           </div>
 
           <div style={{ backgroundColor: "#FFFFFF", border: "1px solid #E0DED6", padding: "1.5rem 2rem" }}>
             <p style={{ fontSize: "0.85rem", color: "#6B6B6B", lineHeight: 1.7 }}>
-              <strong style={{ color: "#C9A84C" }}>Notre position :</strong>{" "}
-              Nous faisons confiance à Cohabs pour nous proposer le bien le plus adapté à notre projet. Notre priorité est de démarrer dans les meilleures conditions pour les deux parties, avec un calendrier réaliste et une installation progressive si nécessaire.
+              Nous sommes ouverts à discuter pour emménager en septembre dans un bien encore en travaux si cela facilite le lancement. Nous attendons les détails complets de Cohabs pour confirmer notre intérêt et discuter des conditions. Nous faisons confiance à Cohabs pour nous proposer le bien le plus adapté à notre projet. Notre priorité est de démarrer dans les meilleures conditions pour les deux parties, avec un calendrier réaliste et une installation progressive possible.
             </p>
           </div>
         </div>
@@ -235,7 +223,7 @@ export default function CohabsPage() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "1px", backgroundColor: "#E0DED6" }}>
             {[
               { n: "01", title: "Partenariat long terme", body: "Engagement pluriannuel avec reconduction possible à chaque nouvelle promotion X-HEC Entrepreneurs." },
-              { n: "02", title: "Accompagnement événementiel", body: "Association de Cohabs à nos événements : visibilité, co-branding, accès à l'écosystème X-HEC." },
+              { n: "02", title: "Accompagnement événementiel", body: "Association de Cohabs à nos événements : visibilité, co-branding, etc." },
               { n: "03", title: "Flexibilité pendant les travaux", body: "Installation progressive possible avant la finalisation complète des travaux, selon un calendrier convenu ensemble." },
               { n: "04", title: "Frais d'entrée allégés", body: "Suppression ou réduction des frais de dossier en contrepartie de l'engagement long terme et de la visibilité offerte." },
               { n: "05", title: "Période d'installation", body: "Une semaine de transition en août pour préparer le lieu avant l'emménagement officiel." },
@@ -261,18 +249,12 @@ export default function CohabsPage() {
             Prêts à construire ce partenariat avec vous.
           </h2>
           <p style={{ fontSize: "0.95rem", color: "rgba(255,255,255,0.6)", lineHeight: 1.8, marginBottom: "3rem" }}>
-            Nous sommes disponibles pour une présentation, une visite ou un échange approfondi sur les conditions.
+            Nous sommes disponibles pour un échange approfondi et la visite des biens proposés ;)
           </p>
           <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap", marginBottom: "2.5rem" }}>
-            <a
-              href="mailto:contact@eiffel-founders.com"
-              style={{ backgroundColor: "#C9A84C", color: "#000000", fontSize: "0.8rem", fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", textDecoration: "none", padding: "1rem 2rem", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}
-            >
-              Partner with us <ArrowRight size={14} />
-            </a>
             <Link
               href="/cohabs-memo"
-              style={{ backgroundColor: "transparent", color: "rgba(255,255,255,0.7)", fontSize: "0.8rem", letterSpacing: "0.08em", textTransform: "uppercase", textDecoration: "none", padding: "1rem 2rem", border: "1px solid rgba(255,255,255,0.2)", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}
+              style={{ backgroundColor: "#C9A84C", color: "#000000", fontSize: "0.8rem", fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", textDecoration: "none", padding: "1rem 2rem", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}
             >
               <Download size={14} /> Memo partenariat
             </Link>

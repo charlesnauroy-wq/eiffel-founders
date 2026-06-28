@@ -41,7 +41,7 @@ export default function EventsPage() {
           >
             Un programme d'événements au cœur de l'écosystème.
           </h1>
-          <p style={{ fontSize: "1rem", color: "#6B6B6B", lineHeight: 1.8, maxWidth: "560px" }}>
+          <p style={{ fontSize: "1rem", color: "#6B6B6B", lineHeight: 1.8 }}>
             Eiffel Founders a vocation à accueillir des événements réguliers qui renforcent le rayonnement du programme X-HEC et créent des connections durables entre fondateurs, investisseurs et opérateurs.
           </p>
         </div>
@@ -56,7 +56,7 @@ export default function EventsPage() {
               Formats envisagés
             </h2>
             <p style={{ fontSize: "0.85rem", color: "#9E9E9E", fontStyle: "italic" }}>
-              Le programme définitif sera co-construit avec nos partenaires à partir de l'automne 2026.
+              Le programme définitif sera co-construit avec nos partenaires à partir de septembre 2026.
             </p>
           </div>
 
@@ -88,18 +88,15 @@ export default function EventsPage() {
               <h2 style={{ fontFamily: "Playfair Display, Georgia, serif", fontSize: "clamp(1.5rem, 2.5vw, 2rem)", fontWeight: 600, color: "#1B2E4B", marginBottom: "1rem", lineHeight: 1.3 }}>
                 Des événements comme levier de rayonnement
               </h2>
-              <p style={{ fontSize: "0.9rem", color: "#6B6B6B", lineHeight: 1.8, marginBottom: "1rem" }}>
-                Les événements organisés à Eiffel Founders ne sont pas pensés comme un mécanisme de financement, mais comme un levier de visibilité, de réseau et d'animation de l'écosystème.
-              </p>
               <p style={{ fontSize: "0.9rem", color: "#6B6B6B", lineHeight: 1.8 }}>
                 Chaque événement est une opportunité de connecter des fondateurs avec des partenaires stratégiques, des investisseurs et des acteurs clés de la scène entrepreneuriale parisienne.
               </p>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "1px", backgroundColor: "#E0DED6" }}>
               {[
-                { label: "Fréquence cible", value: "2–3 événements / mois" },
-                { label: "Format", value: "Intime et sélectif (20–80 participants)" },
-                { label: "Lancement", value: "Automne 2026" },
+                { label: "Fréquence cible", value: "4 événements / mois" },
+                { label: "Format", value: "Sélectif (10–30 participants)" },
+                { label: "Lancement", value: "Septembre 2026" },
                 { label: "Audience visée", value: "Fondateurs, VCs, Alumni X-HEC" },
               ].map((item, i) => (
                 <div key={i} style={{ backgroundColor: "#FFFFFF", padding: "1.25rem 1.75rem", display: "flex", justifyContent: "space-between", alignItems: "center", gap: "1rem" }}>
@@ -121,12 +118,6 @@ export default function EventsPage() {
           >
             Devenir partenaire événementiel <ArrowRight size={14} />
           </a>
-          <Link
-            href="/cohabs"
-            style={{ backgroundColor: "transparent", color: "#1A1A1A", fontSize: "0.8rem", letterSpacing: "0.08em", textTransform: "uppercase", textDecoration: "none", padding: "1rem 2rem", border: "1px solid #E0DED6", display: "inline-flex", alignItems: "center", gap: "0.5rem" }}
-          >
-            Partenariat Cohabs
-          </Link>
         </div>
       </section>
     </>

@@ -31,11 +31,11 @@ const partnerCategories = [
 ];
 
 const whatWeOffer = [
-  "Un accès privilégié à 8 fondateurs actifs X-HEC Entrepreneurs",
+  "Un accès privilégié à l'écosystème Eiffel Founders",
   "Une présence lors des événements et dîners fondateurs",
-  "Une visibilité auprès de l'écosystème X-HEC (120 fondateurs par promotion)",
+  "Une visibilité auprès de l'écosystème et des alumnis HEC Paris et Polytechnique",
   "Des opportunités de co-organisation d'événements",
-  "Un relais vers le réseau des alumni X-HEC et HEC Paris",
+  "Un positionnement early stage dans les start-ups de demain",
   "Une association à un lieu pensé pour la création et l'innovation",
 ];
 
@@ -62,8 +62,8 @@ export default function PartnersPage() {
           >
             Construire ensemble un écosystème ambitieux.
           </h1>
-          <p style={{ fontSize: "1rem", color: "#6B6B6B", lineHeight: 1.8, maxWidth: "560px" }}>
-            Eiffel Founders cherche des partenaires qui partagent notre conviction : les meilleures choses arrivent quand des personnes talentueuses se retrouvent dans un même lieu, avec les bonnes ressources et le bon réseau.
+          <p style={{ fontSize: "1rem", color: "#6B6B6B", lineHeight: 1.8 }}>
+            Eiffel Founders cherche des partenaires qui partagent notre conviction : une hackerhouse dans Paris provoque la construction de projets, de relations et d'opportunités pour l'écosystème entrepreneurial français.
           </p>
         </div>
       </section>
@@ -140,19 +140,11 @@ export default function PartnersPage() {
 
       {/* CTA */}
       <section style={{ backgroundColor: "#FFFFFF", padding: "5rem 1.5rem", borderTop: "1px solid #E0DED6" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "2rem" }}>
-          <div>
-            <h3 style={{ fontFamily: "Playfair Display, Georgia, serif", fontSize: "1.5rem", fontWeight: 600, color: "#1B2E4B", marginBottom: "0.5rem" }}>
-              Vous souhaitez devenir partenaire ?
-            </h3>
-            <p style={{ fontSize: "0.9rem", color: "#6B6B6B" }}>Contactez-nous directement pour échanger sur les possibilités.</p>
-          </div>
-          <a
-            href="mailto:contact@eiffel-founders.com"
-            style={{ backgroundColor: "#1B2E4B", color: "#FFFFFF", fontSize: "0.8rem", fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", textDecoration: "none", padding: "1rem 2rem", display: "inline-flex", alignItems: "center", gap: "0.5rem", whiteSpace: "nowrap" }}
-          >
-            Partner with us <ArrowRight size={14} />
-          </a>
+        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+          <h3 style={{ fontFamily: "Playfair Display, Georgia, serif", fontSize: "1.5rem", fontWeight: 600, color: "#1B2E4B", marginBottom: "0.5rem" }}>
+            Vous souhaitez devenir partenaire ?
+          </h3>
+          <p style={{ fontSize: "0.9rem", color: "#6B6B6B" }}>Contactez-nous directement pour échanger sur les possibilités : <a href="mailto:contact@eiffel-founders.com" style={{ color: "#C9A84C", textDecoration: "none" }}>contact@eiffel-founders.com</a></p>
         </div>
       </section>
     </>

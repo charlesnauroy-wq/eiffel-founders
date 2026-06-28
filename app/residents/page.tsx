@@ -24,8 +24,8 @@ export default function ResidentsPage() {
           >
             Huit fondateurs. Un projet commun.
           </h1>
-          <p style={{ fontSize: "1rem", color: "#6B6B6B", lineHeight: 1.8, maxWidth: "580px" }}>
-            Les résidents d'Eiffel Founders sont des entrepreneurs issus du programme X-HEC Entrepreneurs, l'une des formations les plus sélectives de France combinant l'excellence technique de l'École Polytechnique et la rigueur de gestion de HEC Paris.
+          <p style={{ fontSize: "1rem", color: "#6B6B6B", lineHeight: 1.8 }}>
+            Les résidents d'Eiffel Founders sont des entrepreneurs issus du programme X-HEC Entrepreneurs. Chacun persuadé que le succès entrepreneurial dépend de leur environnement, ils rassemblent leur vision pour construire un lieu de vie partagé et enrichissant.
           </p>
         </div>
       </section>
@@ -41,28 +41,6 @@ export default function ResidentsPage() {
         </div>
       </section>
 
-      {/* X-HEC stats */}
-      <section style={{ backgroundColor: "#F7F6F2", borderTop: "1px solid #E0DED6", padding: "5rem 1.5rem" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "1px", backgroundColor: "#E0DED6" }}>
-            {[
-              { value: "120", label: "Fondateurs par promotion", desc: "X-HEC Entrepreneurs réunit chaque année 120 entrepreneurs en formation." },
-              { value: "2", label: "Grandes écoles réunies", desc: "L'excellence technique de Polytechnique alliée à la rigueur de gestion de HEC Paris." },
-              { value: "∞", label: "Promotions à venir", desc: "Chaque année, la promotion suivante peut reprendre le flambeau d'Eiffel Founders." },
-            ].map((stat, i) => (
-              <div key={i} style={{ backgroundColor: "#FFFFFF", padding: "2rem 2.5rem" }}>
-                <div style={{ fontFamily: "JetBrains Mono, monospace", fontSize: "2.5rem", fontWeight: 700, color: "#C9A84C", marginBottom: "0.5rem" }}>
-                  {stat.value}
-                </div>
-                <div style={{ fontSize: "0.75rem", fontWeight: 600, color: "#1B2E4B", letterSpacing: "0.06em", textTransform: "uppercase", marginBottom: "0.5rem" }}>
-                  {stat.label}
-                </div>
-                <p style={{ fontSize: "0.82rem", color: "#6B6B6B", lineHeight: 1.6 }}>{stat.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </>
   );
 }

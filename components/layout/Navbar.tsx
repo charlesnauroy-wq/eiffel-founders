@@ -6,8 +6,8 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { href: "/", label: "Home" },
-  { href: "/residents", label: "Résidents" },
+  { href: "/", label: "Accueil" },
+  { href: "/residents", label: "Qui sommes-nous" },
   { href: "/events", label: "Événements" },
   { href: "/partners", label: "Partenaires" },
   { href: "/cohabs", label: "Cohabs" },
@@ -95,22 +95,6 @@ export default function Navbar() {
               </Link>
             );
           })}
-          <a
-            href="mailto:contact@eiffel-founders.com"
-            style={{
-              backgroundColor: "#1B2E4B",
-              color: "#FFFFFF",
-              fontSize: "0.72rem",
-              fontWeight: 600,
-              letterSpacing: "0.08em",
-              textTransform: "uppercase",
-              textDecoration: "none",
-              padding: "0.55rem 1.25rem",
-              transition: "background-color 0.2s",
-            }}
-          >
-            Partner with us
-          </a>
         </nav>
 
         {/* Mobile burger */}
@@ -153,23 +137,6 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <a
-            href="mailto:contact@eiffel-founders.com"
-            style={{
-              backgroundColor: "#1B2E4B",
-              color: "#FFFFFF",
-              fontSize: "0.8rem",
-              fontWeight: 600,
-              letterSpacing: "0.08em",
-              textTransform: "uppercase",
-              textDecoration: "none",
-              padding: "0.75rem 1.5rem",
-              textAlign: "center",
-              marginTop: "0.5rem",
-            }}
-          >
-            Partner with us
-          </a>
         </div>
       )}
 

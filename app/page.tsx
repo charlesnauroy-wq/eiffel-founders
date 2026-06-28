@@ -85,7 +85,7 @@ export default function HomePage() {
 
           {/* Sub */}
           <p style={{ fontSize: "1.1rem", color: "#6B6B6B", lineHeight: 1.7, maxWidth: "540px", marginBottom: "3rem" }}>
-            Huit fondateurs. Un toit. Un lieu pour construire, recevoir et faire grandir l'écosystème entrepreneurial X-HEC à Paris.
+            Huit fondateurs. Un lieu pour construire, recevoir et faire grandir l'écosystème entrepreneurial X-HEC à Paris.
           </p>
 
           {/* CTAs */}
@@ -130,41 +130,13 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Stats bar ── */}
-      <section style={{ backgroundColor: "#1B2E4B", padding: "0 1.5rem" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(4, 1fr)" }}>
-          {[
-            { value: "8", label: "Fondateurs" },
-            { value: "1", label: "Lieu à Paris" },
-            { value: "120", label: "Promos X-HEC" },
-            { value: "2026", label: "Lancement" },
-          ].map((stat, i) => (
-            <div
-              key={i}
-              style={{
-                padding: "1.75rem 2rem",
-                borderRight: i < 3 ? "1px solid rgba(255,255,255,0.08)" : "none",
-                textAlign: "center",
-              }}
-            >
-              <div style={{ fontFamily: "JetBrains Mono, monospace", fontSize: "1.75rem", fontWeight: 700, color: "#C9A84C", marginBottom: "0.2rem" }}>
-                {stat.value}
-              </div>
-              <div style={{ fontSize: "0.7rem", color: "rgba(255,255,255,0.5)", letterSpacing: "0.08em", textTransform: "uppercase" }}>
-                {stat.label}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* ── 3 Pillars ── */}
       <section style={{ backgroundColor: "#FFFFFF", padding: "6rem 1.5rem", borderBottom: "1px solid #E0DED6" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
           <div style={{ marginBottom: "3.5rem" }}>
             <span style={{ display: "block", width: "48px", height: "2px", backgroundColor: "#C9A84C", marginBottom: "1.25rem" }} />
             <h2 style={{ fontFamily: "Playfair Display, Georgia, serif", fontSize: "clamp(1.75rem, 3vw, 2.5rem)", fontWeight: 600, color: "#1B2E4B", marginBottom: "0.75rem" }}>
-              Trois usages. Une vision.
+              Une vision.
             </h2>
             <p style={{ color: "#6B6B6B", fontSize: "1rem", maxWidth: "480px", lineHeight: 1.7 }}>
               Plus qu'une colocation : une infrastructure opérationnelle pour fondateurs ambitieux.

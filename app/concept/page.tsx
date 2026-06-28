@@ -100,7 +100,7 @@ export default function ConceptPage() {
           <div style={{ marginBottom: "3.5rem" }}>
             <span style={{ display: "block", width: "48px", height: "2px", backgroundColor: "#C9A84C", marginBottom: "1.25rem" }} />
             <h2 style={{ fontFamily: "Playfair Display, Georgia, serif", fontSize: "clamp(1.75rem, 3vw, 2.5rem)", fontWeight: 600, color: "#1B2E4B" }}>
-              Trois usages. Une vision.
+              Une vision.
             </h2>
           </div>
 

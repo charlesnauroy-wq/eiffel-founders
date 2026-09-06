@@ -22,7 +22,7 @@ export default function ResidentsPage() {
               marginBottom: "1.25rem",
             }}
           >
-            Huit fondateurs. Un projet commun.
+            Six fondateurs. Un projet commun.
           </h1>
           <p style={{ fontSize: "1rem", color: "#6B6B6B", lineHeight: 1.8 }}>
             Les résidents d'Eiffel Founders sont des entrepreneurs issus du programme X-HEC Entrepreneurs. Chacun persuadé que le succès entrepreneurial dépend de leur environnement, ils rassemblent leur vision pour construire un lieu de vie partagé et enrichissant.

@@ -193,7 +193,7 @@ export default function CohabsPage() {
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "1px", backgroundColor: "#E0DED6" }}>
               {[
-                { year: "2026 — 2027", desc: "Promotion Eiffel Founders #1 — 8 fondateurs en résidence." },
+                { year: "2026 — 2027", desc: "Promotion Eiffel Founders #1 — 6 fondateurs en résidence." },
                 { year: "2027 — 2028", desc: "Transmission à la promotion X-HEC Entrepreneurs suivante." },
                 { year: "2028+", desc: "Eiffel Founders devient un actif durable de l'écosystème X-HEC à Paris." },
               ].map((item, i) => (

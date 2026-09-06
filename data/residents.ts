@@ -10,14 +10,6 @@ export type Resident = {
 export const residents: Resident[] = [
   {
     id: 1,
-    firstName: "Christian",
-    lastName: "Banide",
-    tagline: "Fondateur · X-HEC Entrepreneurs",
-    photo: "/images/residents/christian-banide.jpg",
-    linkedin: "https://www.linkedin.com/in/christian-banide-51683b24b/",
-  },
-  {
-    id: 2,
     firstName: "Daphné",
     lastName: "Lamarre",
     tagline: "Fondatrice · X-HEC Entrepreneurs",
@@ -25,15 +17,7 @@ export const residents: Resident[] = [
     linkedin: "https://www.linkedin.com/in/daphn%C3%A9e-lamarre-2b2b5926b/",
   },
   {
-    id: 3,
-    firstName: "Fayed",
-    lastName: "Al Rashid",
-    tagline: "Fondateur · X-HEC Entrepreneurs",
-    photo: "/images/residents/fayed-al-rashid.jpg",
-    linkedin: "https://www.linkedin.com/in/fayedalrashid/",
-  },
-  {
-    id: 4,
+    id: 2,
     firstName: "Alix",
     lastName: "Monteyne",
     tagline: "Fondatrice · X-HEC Entrepreneurs",
@@ -41,7 +25,7 @@ export const residents: Resident[] = [
     linkedin: "https://www.linkedin.com/in/alix-monteyne-614887292/",
   },
   {
-    id: 5,
+    id: 3,
     firstName: "Anaeve",
     lastName: "Petit",
     tagline: "Fondatrice · X-HEC Entrepreneurs",
@@ -49,7 +33,7 @@ export const residents: Resident[] = [
     linkedin: "https://www.linkedin.com/in/anaevepetit/",
   },
   {
-    id: 6,
+    id: 4,
     firstName: "Maxime",
     lastName: "Romatet",
     tagline: "Fondateur · X-HEC Entrepreneurs",
@@ -57,7 +41,7 @@ export const residents: Resident[] = [
     linkedin: "https://www.linkedin.com/in/maximeromatet/",
   },
   {
-    id: 7,
+    id: 5,
     firstName: "Mathieu",
     lastName: "Grossin",
     tagline: "Fondateur · X-HEC Entrepreneurs",
@@ -65,7 +49,7 @@ export const residents: Resident[] = [
     linkedin: "https://www.linkedin.com/in/mathieu-grossin-91a356220/",
   },
   {
-    id: 8,
+    id: 6,
     firstName: "Hugo",
     lastName: "Gesland",
     tagline: "Fondateur · X-HEC Entrepreneurs",

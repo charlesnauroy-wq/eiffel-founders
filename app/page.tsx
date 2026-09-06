@@ -85,7 +85,7 @@ export default function HomePage() {
 
           {/* Sub */}
           <p style={{ fontSize: "1.1rem", color: "#6B6B6B", lineHeight: 1.7, maxWidth: "540px", marginBottom: "3rem" }}>
-            Huit fondateurs. Un lieu pour construire, recevoir et faire grandir l'écosystème entrepreneurial X-HEC à Paris.
+            Six fondateurs. Un lieu pour construire, recevoir et faire grandir l'écosystème entrepreneurial X-HEC à Paris.
           </p>
 
         </div>

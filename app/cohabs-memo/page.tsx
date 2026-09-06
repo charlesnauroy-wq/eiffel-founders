@@ -63,7 +63,7 @@ export default function CohabsMemoPage() {
               content: (
                 <>
                   <p style={{ fontSize: "13px", color: "#333333", lineHeight: 1.8, fontFamily: "Georgia, serif" }}>
-                    Eiffel Founders est une hacker house parisienne portée par des fondateurs du programme X-HEC Entrepreneurs. Le projet réunit huit fondateurs dans un même lieu à Paris, avec trois missions : construire, se retrouver et organiser des événements pour l'écosystème entrepreneurial X-HEC.
+                    Eiffel Founders est une hacker house parisienne portée par des fondateurs du programme X-HEC Entrepreneurs. Le projet réunit six fondateurs dans un même lieu à Paris, avec trois missions : construire, se retrouver et organiser des événements pour l'écosystème entrepreneurial X-HEC.
                   </p>
                   <p style={{ fontSize: "13px", color: "#333333", lineHeight: 1.8, fontFamily: "Georgia, serif", marginTop: "10px" }}>
                     Inspiré de l'expérience{" "}
@@ -87,7 +87,7 @@ export default function CohabsMemoPage() {
           {/* Les résidents */}
           <section style={{ marginBottom: "32px" }}>
             <h2 style={{ fontSize: "11px", fontWeight: 700, color: "#111111", letterSpacing: "0.15em", textTransform: "uppercase", fontFamily: "Courier New, monospace", marginBottom: "12px", paddingBottom: "6px", borderBottom: "1px solid #DDDDDD" }}>
-              Les 8 résidents
+              Les 6 résidents
             </h2>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "0" }}>
               {residents.map((r, i) => (

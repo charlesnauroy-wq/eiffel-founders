@@ -56,7 +56,7 @@ components/
     └── ResidentCard.tsx
 
 data/
-├── residents.ts        # Données des 8 résidents
+├── residents.ts        # Données des 6 résidents
 ├── events.ts           # Formats d'événements
 └── partnership.ts      # Données partenariat Cohabs
 ```
@@ -93,9 +93,7 @@ Chaque résident a la structure suivante :
 Tant qu'une photo est absente, les initiales du résident sont affichées à la place.
 
 Liste des fichiers attendus :
-- `public/images/residents/christian-banide.jpg`
 - `public/images/residents/daphne-lamarre.jpg`
-- `public/images/residents/fayed-al-rashid.jpg`
 - `public/images/residents/alix-monteyne.jpg`
 - `public/images/residents/anaeve-petit.jpg`
 - `public/images/residents/maxime-romatet.jpg`
@@ -110,7 +108,7 @@ Liste des fichiers attendus :
 |---|---|
 | `/` | Page d'accueil |
 | `/concept` | Présentation du concept |
-| `/residents` | Grille des 8 résidents |
+| `/residents` | Grille des 6 résidents |
 | `/events` | Formats événementiels |
 | `/partners` | Partenaires recherchés |
 | `/cohabs` | Page partenariat Cohabs (pitch deck web) |

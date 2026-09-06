@@ -19,7 +19,7 @@ export const valueProps: ValueProp[] = [
   {
     number: "02",
     title: "Un groupe sérieux et présélectionné",
-    body: "Huit fondateurs issus du programme X-HEC Entrepreneurs. Des profils vérifiés, engagés, et porteurs de projets ambitieux.",
+    body: "Six fondateurs issus du programme X-HEC Entrepreneurs. Des profils vérifiés, engagés, et porteurs de projets ambitieux.",
   },
   {
     number: "03",
